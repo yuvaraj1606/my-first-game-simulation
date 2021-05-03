@@ -100,7 +100,7 @@ loadImages((images)=>{
             queuedAnimations.push("backward");
            
         }
-        else if(key==="Space"){
+        else {
             queuedAnimations.push("block");
 
         }
